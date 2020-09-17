@@ -12,6 +12,7 @@ public class HelloController {
 
     @GetMapping()
     public String hello() {
-        return String.format("hello, world. [%s]", LocalDateTime.now());
+        String ok = "It is OK !";
+        return String.format("hello, world. time [%s] status [%s]", LocalDateTime.now(), ok);
     }
 }
