@@ -12,7 +12,8 @@ public class HelloController {
 
     @GetMapping()
     public String hello() {
-        String ok = "It is OK !";
+            // XXX : intentional wrong style for Checkstyle
+            String ok = "It is OK !";
         return String.format("hello, world. time [%s] status [%s]", LocalDateTime.now(), ok);
     }
 }
