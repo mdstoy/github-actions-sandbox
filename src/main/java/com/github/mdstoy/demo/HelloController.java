@@ -12,7 +12,6 @@ public class HelloController {
 
     @GetMapping()
     public String hello() {
-            int x = 0;
         return String.format("hello, world. [%s]", LocalDateTime.now());
     }
 }
