@@ -10,6 +10,11 @@ import java.time.LocalDateTime;
 @RequestMapping("/")
 public class HelloController {
 
+    /**
+     * Hello.
+     *
+     * @return hello, world.
+     */
     @GetMapping()
     public String hello() {
         // XXX : intentional wrong style for Checkstyle
