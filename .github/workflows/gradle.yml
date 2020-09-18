@@ -9,6 +9,7 @@ on:
     - 'spring-boot/**'
     branches: [ master ]
   pull_request:
+    paths:
     - 'spring-boot/**'
     branches: [ master ]
 
