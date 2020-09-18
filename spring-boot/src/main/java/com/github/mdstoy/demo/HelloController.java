@@ -16,8 +16,11 @@ public class HelloController {
      * @return hello, world.
      */
     @GetMapping()
-    public String hello() {
+    public HelloResponse hello() {
         String ok = "It is OK !";
-        return String.format("hello, world. time [%s] status [%s]", LocalDateTime.now(), ok);
+        HelloResponse response = new HelloResponse();
+        response.status = ok;
+        response.now = LocalDateTime.now();
+        return response;
     }
 }
