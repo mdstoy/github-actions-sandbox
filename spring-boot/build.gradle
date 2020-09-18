@@ -29,6 +29,10 @@ checkstyle {
 	ignoreFailures false
 }
 
+spotbugs {
+	omitVisitors = [ 'UnreadFields' ]
+}
+
 test {
 	useJUnitPlatform()
 }
