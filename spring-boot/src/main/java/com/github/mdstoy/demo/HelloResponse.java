@@ -3,13 +3,9 @@ package com.github.mdstoy.demo;
 import java.time.LocalDateTime;
 
 public class HelloResponse {
-    /**
-     * status
-     */
+    /** status. */
     public String status;
 
-    /**
-     * response datetime
-     */
+    /** response datetime. */
     public LocalDateTime now;
 }
