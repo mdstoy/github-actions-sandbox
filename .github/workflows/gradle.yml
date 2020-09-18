@@ -5,8 +5,11 @@ name: Java CI with Gradle
 
 on:
   push:
+    paths:
+    - 'spring-boot/**'
     branches: [ master ]
   pull_request:
+    - 'spring-boot/**'
     branches: [ master ]
 
 jobs:
