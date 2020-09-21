@@ -3,3 +3,5 @@
 # github-actions-sandbox
 Try GitHub Actions features.
 
+直接masterにコミットできないようにするテスト
+
