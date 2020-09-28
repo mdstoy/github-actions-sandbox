@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<findbugs>
-  <detectors>
-    <detector name="UnreadFields" enabled="false" />
-  </detectors>
-</findbugs>
-
