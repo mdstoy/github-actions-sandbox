@@ -17,7 +17,7 @@ public class HelloController {
      */
     @GetMapping()
     public HelloResponse hello() {
-        String ok = "It works!";
+        String ok = "It works!!";
         HelloResponse response = new HelloResponse();
         response.status = ok;
         response.now = LocalDateTime.now();
