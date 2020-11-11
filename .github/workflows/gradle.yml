@@ -11,7 +11,7 @@ on:
   pull_request:
     paths:
     - 'spring-boot/**'
-    - '.github/workflows/**'
+    - '.github/workflows/*.yml'
     branches: [ main ]
 
 jobs:
