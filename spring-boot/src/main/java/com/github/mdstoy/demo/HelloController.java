@@ -19,7 +19,7 @@ public class HelloController {
     public HelloResponse hello() {
         String ok = "It works!!";
         HelloResponse response = new HelloResponse();
-        response.status = ok;
+            response.status = ok;
         response.now = LocalDateTime.now();
         return response;
     }
