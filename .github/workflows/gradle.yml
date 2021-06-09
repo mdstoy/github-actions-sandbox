@@ -38,3 +38,9 @@ jobs:
         PR_URL: ${{ github.event.pull_request.html_url }}
       run: ./gradlew build
       working-directory: ./spring-boot
+    - name: Archive code coverage results
+      if: always()
+      uses: actions/upload-artifact@v2
+      with:
+        name: result
+        path: build/reports/**/*
